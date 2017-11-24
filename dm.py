@@ -17,6 +17,7 @@ dts = json.loads(raw_json)
 
 # parse concepts
 for concept in dts['concepts']:
+    # register concepts
     print(concept)
 
 # init dialog stack
